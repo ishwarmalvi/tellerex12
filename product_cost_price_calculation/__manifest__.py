@@ -21,7 +21,7 @@
 
 {
     'name' : 'Product Cost Price Calculation',
-    'version': '12.0.1',
+    'version': '12.0.2',
     'author': 'Geminate Consultancy Services',
     'license': 'Other proprietary',
     'description': """Product Cost Price Calculation:
