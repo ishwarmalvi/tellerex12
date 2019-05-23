@@ -102,10 +102,10 @@ class BarcodeLabels(models.TransientModel):
             'margin_right': margin_right,
             'header_spacing': header_spacing,
             'orientation': orientation,
-            'display_height': config_rec.display_height,
-            'display_width': config_rec.display_width,
-            'humanreadable': config_rec.humanreadable,
-            'lot': config_rec.lot
+            # 'display_height': config_rec.display_height,
+            # 'display_width': config_rec.display_width,
+            # 'humanreadable': config_rec.humanreadable,
+            # 'lot': config_rec.lot
         })
         report_action_id.write({'paperformat_id': paperformat_id.id})
         return True
